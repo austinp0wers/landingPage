@@ -1,0 +1,53 @@
+.plist{
+    height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plist-texts{
+    width: 65%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.plist-title{
+    font-size: 50px;
+    font-weight: 550;
+}
+
+.plist-desc{
+    margin: 20px 0px;
+}
+
+.plist-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.proj-desc{
+    align-items: center;
+}
+.plist-bg{
+    align-items: center;
+    background-color: #b2b7c2;
+}
+.project-wrapper{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:480px){
+    .plist{
+        padding: 10px;
+    }
+    .plist-texts{
+        width: 100%;
+    }
+    .plist-desc{
+        display: none;
+    }
+}
